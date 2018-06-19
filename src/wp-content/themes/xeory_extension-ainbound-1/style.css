@@ -1,0 +1,528 @@
+/*
+ Theme Name:   XeoryExtension @inbound
+ Description:  XeoryExtension Child Theme for @inbound
+ Author:       hikaru takahashi
+ Template:     xeory_extension
+ Version:      1.0.0
+*/
+
+#header {
+  background: white;
+}
+#content {
+  padding: 0;
+  margin-top: 1em;
+}
+#main_visual + #content {
+  /*padding: 0 20px;*/
+  padding: 0 0;
+  margin-top: -0.9em;
+}
+body {
+  background: none;
+}
+body.color04 #header {
+  background: white;
+}
+body.color04 a {
+    color: #e22f20;
+}
+
+body.home.color04 #main_visual {
+  height: 600px;
+  background: white;
+  background-image: url(https://a-inbound.com/wp-content/uploads/2018/03/toppu2.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+}
+
+body.color04 #gnav {
+  background: white;
+}
+
+body.color04 #gnav ul li a,
+body.color04 #gnav ul li.current-menu-item a {
+  background: white;
+  color: black;
+}
+
+#header #logo img {
+  width: 150px;
+}
+
+/* サービス説明 */
+body.home #front-service {
+  background: #e22f20 !important;
+  padding-bottom: 3em;
+  background-image: url(/wp-content/uploads/2018/04/bg_pattern.png) !important;
+  background-size: 6% !important;
+}
+body.home #front-service header {
+  background: none;
+  padding: 0.5em;
+}
+body.home #front-service .wrap {
+  background: rgba(255, 255, 255,0.5);
+  border-radius: 10px;
+  width: 90%;
+  padding: 1em;
+  margin: 0 auto;
+  color: #000;
+}
+body.home #front-service .front-service-inner h3 {
+  color: #000 !important;
+  font-size: 2em;
+}
+body.home #front-service .front-service-inner .c_text {
+  margin: 0 auto;
+  width: 60%;
+}
+body.home #front-service .front-service-inner .c_text p {
+  margin-bottom: 0px;
+  text-align: left;
+}
+body.home #front-service .front-service-inner .c_box {
+   padding-top: 0px;
+   margin-left: 0%;
+}
+
+
+
+body.home #front-service .front-service-inner .c_box {
+   width: 100%;
+   margin-left: 5%;
+   margin-bottom: 20px;
+   float: left;
+   text-align: center;
+}
+
+body.home #main_visual h2 {
+  line-height: 30px;
+}
+
+body.color04 .footer-01,
+body.home.color04 .front-main-cont .front-cont-header {
+  background: #e22f20;
+}
+
+body.color04 .footer-02 {
+  background: #e22f20;
+  padding-bottom: 20px;
+}
+
+body.color04 #footer {
+  border: none !important;
+}
+body.home.color04 .front-main-cont .tri-border,
+body.home.color04 .front-main-cont .tri-border span {
+  border-top: 18px solid #e22f20;
+  display: none;
+}
+
+body.color04 #footer-brand-area {
+  border-bottom: 1px solid gold;
+}
+
+#footer .wrap {
+  padding: 0;
+}
+
+#membrBtn {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* サイドバー */
+.side-widget {
+  padding-bottom: 0;
+}
+#wpp-2,
+.widget_categories.side-widget {
+  border: 1px solid #e22f20;
+}
+#wpp-2 .side-title,
+.widget_categories.side-widget .side-title {
+  background: #e22f20 !important;
+  border: 1px solid #e22f20 !important;
+  color: #fff;
+  text-align: center;
+}
+#wpp-2 ul li {
+  padding: 1em;
+}
+.side-widget ul li {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 2em 1em 1em;
+}
+.side-widget ul li a {
+  text-decoration: none;
+}
+.side-widget ul li.cat-item a:before {
+  /*content: ">";*/
+  color: #000;
+  margin-right: 0.5em;
+}
+
+.side-widget a {
+  color: #e22f20;
+  text-decoration: underline;
+  display: inline;
+}
+body.color04 .side-widget a {
+    color: #e22f20;
+}
+
+/* 会員向けページ */
+#searchform button {
+  color: #fff;
+  background: #e22f20;
+}
+/*
+#searchform input[type=text] {
+  background: #dadbdb;
+}
+*/
+#cat a h3 {
+  text-align: center;
+}
+#post-68 .post-header {
+  display: none;
+}
+/* カテゴリ */
+#cat {
+  width: 31%;
+  margin-left: 2.2%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  /*height: 200px;*/
+}
+#popular_post_content_cat h3 {
+  font-size: 14px;
+  margin: 10px 0 24px;
+  padding: 20px 0;
+  clear: both;
+  font-weight: normal;
+  border-bottom: 0px solid #3B4552;
+  line-height: 1;
+}
+/* タグ */
+.post_tags a {
+  float: left;
+  padding: 4px 5px;
+  margin: 0 3px 5px;
+  line-height: 1em;
+  border: 1px solid;
+  border-radius: 7px;
+  font-size: 18px;
+  color: #C50019;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#t_sort {
+  overflow: hidden;
+}
+.box1 {
+  float: left;
+}
+.box2 {
+  float: right;
+  font-size: 20px;
+  /*margin: -2px;*/
+}
+
+/* お問い合わせ */
+.center {
+  text-align: center;
+}
+.mb2 {
+  margin-bottom: 2em;
+}
+form dl {
+  text-align: center;
+  margin-bottom: 0.5em !important;
+}
+form dl dt {
+  background: #ccc;
+  width: 30%;
+  padding: 0.5em;
+  display: inline-block;
+  margin-right: 1em;
+}
+form dl dd {
+  margin-left: 0 !important;
+  margin-bottom: 1.5em;
+  display: inline-block;
+}
+body.color04 form input[type="submit"],
+body.color04 form button {
+  background: #38bcdf;
+  width: 30%;
+  border-radius: 5px;
+}
+/*#post-100 header.post-header {*/
+article.page .post-header {
+  background: #e22f20;
+  color: #fff;
+  padding: 1em;
+}
+.post-title {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+.box1 .post-title {
+  font-size: 20px;
+}
+
+.post-loop-wrap .post-thumbnail,
+.post-thumbnail {
+  width: 30%;
+  display: block;
+  margin: 20px auto -20px;
+}
+/* #main_visual + #content .post-loop-wrap .post-thumbnail { */
+#main_visual + #content .post-thumbnail {
+  /* width: 30%; */
+  width: 70%;
+  display: block;
+  /* margin: 20px auto -20px; */
+  margin: 0 auto;
+}
+
+/* 横ならび
+.post-loop-wrap article {
+  width: 43%;
+  margin: 0 0 60px 50px;
+  float: left;
+}
+  */
+body.color04 #gnav ul li a:hover {
+  color: #fff;
+  background: #e22f20;
+}
+
+#gnav ul li#menu-item-209 a,
+#gnav ul li#menu-item-206 a {
+  background: #38bcdf;
+  padding: 20px 10px;
+  border-radius: 10px;
+  color: #fff;
+  width: 10em;
+  height: 1em;
+  line-height: 0em;
+  text-align: center;
+}
+#popular_post_content {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+#popular_post_content.front-loop {
+  border: none;
+}
+#popular_post_content .front-loop-cont {
+  text-align: left;
+}
+#popular_post_content .front-loop-cont .popular_post_box {
+  width: 20%;
+  float: none;
+  text-align: left;
+}
+#membrBtn h2 {
+  width: 20%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #38bcdf;
+}
+#membrBtn h2 a {
+  color: #fff;
+  font-size: 0.8em;
+}
+footer#footer li.menu-item {
+    display: inline-block;
+}
+#front-service .cont-title{
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 992px)  {
+  .sp_only {
+    display: none !important;
+  }
+}
+/* タブレット */
+@media screen and (max-width: 991px) {
+  .sp_only {
+    display: none !important;
+  }
+  #gnav-sp {
+    background: #e22f20;
+  }
+  #gnav-sp .wrap {
+    padding: 10px 0;
+  }
+  #header-nav-btn a {
+    background: white;
+  }
+  #main_visual + #content {
+    margin-top: -0.55em;
+  }
+  body.color04 #header a {
+    color: #e22f20;;
+  }
+  /* サービス説明 */
+  body.home #front-service .front-service-inner .c_box {
+     margin-left: 0%;
+  }
+  body.home #front-service .front-service-inner .c_text {
+    width: 90%;
+  }
+  #popular_post_content .front-loop-cont .popular_post_box {
+    width: 48%;
+  }
+  body.home #front-service {
+    background-size: 15% !important;
+  }
+  #membrBtn h2 {
+    width: 50%;
+    padding: 0.5em;
+  }
+  body.home .wrap {
+    margin: 0;
+  }
+}
+
+/* スマホ */
+@media screen and (max-width: 767px) {
+  .pc_only {
+    display: none !important;
+  }
+  .sp_only {
+    display: block !important;
+  }
+  body.home.color04 #main_visual {
+    height: 240px;
+  }
+  #main_visual + #content {
+    padding: 0px;
+    margin-top: -0.3em;
+  }
+  article.page .post-content {
+    padding: 10px;
+  }
+  #header #logo {
+    float: left;
+  }
+  #header-nav-btn {
+    display: block;
+    width: 90px;
+    line-height: 92px;
+    float: right;
+    padding-top: 27px;
+  }
+  #header-nav-btn a {
+    background: white;
+    color: black;
+    font-size: 24px;
+  }
+  body.home .front-main-cont .front-cont-header .cont-title {
+    font-size: 19px;
+  }
+  body.home #front-service .front-service-inner h3 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  body.home #front-service .front-service-inner .c_text{
+    width: 100%;
+  }
+  body.home #front-service .front-service-inner .c_text p {
+    margin-bottom: 0px;
+  }
+  body.home #front-service {
+    background-size: 25% !important;
+  }
+  body.home #front-service .wrap {
+    background: rgba(255, 255, 255,0.7);
+  }
+  #popular_post_content {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+  #footer .row {
+    margin: 0;
+  }
+  #popular_post_content .wrap {
+    margin: 0;
+  }
+  #popular_post_content .front-loop-cont .popular_post_box {
+    width: 100%;
+  }
+  body.home .front-loop .popular_post_box img {
+    width: 70%;
+  }
+  #main_visual + #content .post-thumbnail {
+    text-align: center;
+    padding-top: 1em;
+  }
+  /* サービス説明 */
+  body.home #front-service .front-service-inner .c_box {
+     padding-top: 0px;
+     margin-left: 0%;
+  }
+
+  /* 商品詳細 */
+  .post-header {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* 会員向けページ */
+  #cat {
+    width: 40%;
+    height: 250px;
+    margin-left: 5.2%;
+    float: left;
+    display: inline-block;
+    position: relative;
+  }
+  /* お問い合わせ */
+  form dl dt {
+    width: 100%;
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="url"],
+  form input[type="tel"],
+  form input[type="number"],
+  form input[type="date"],
+  form textarea {
+    width: 100%;
+  }
+  body.color04 form input[type="submit"],
+  body.color04 form button {
+    width: 50%;
+  }
+  .box1 .post-title {
+    font-size: 11px;
+    margin-top: 3px;
+  }
+  .box2 {
+    font-size: 11px;
+  }
+  /* 横並び
+  .post-loop-wrap article {
+    width: 100%;
+    margin: 0 0 60px 0;
+  }
+  */
+}
